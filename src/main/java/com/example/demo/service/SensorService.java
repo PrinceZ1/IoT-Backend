@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface SensorService {
-    List<SensorDTO> getSensor(Map<String, Object> params);
+    Map<String, Object> getSensor(Map<String, Object> params);
     SensorDTO getSensorById(Long id);
     SensorDTO getLatestSensorData();
     void saveSensorData(SensorEntity sensorData);

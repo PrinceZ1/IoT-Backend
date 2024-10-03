@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Configuration
 public class MqttConfig {
 
-    private static final String BROKER_URL = "tcp://10.10.8.183:1883";
+    private static final String BROKER_URL = "tcp://172.0.0.56:1889";
     private static final String CLIENT_ID = "iotClient";
     private static final String USERNAME = "nguyen";
     private static final String PASSWORD = "12345";

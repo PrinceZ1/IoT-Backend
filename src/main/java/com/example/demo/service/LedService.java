@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface LedService {
-    List<LedDTO> getLed(Map<String, Object> params);
+    Map<String, Object> getLed(Map<String, Object> params);
     LedDTO getLedById(Long id);
     ResponseEntity<String> controlLed(String deviceName, String action);
     void saveLedData(LedEntity ledData);
